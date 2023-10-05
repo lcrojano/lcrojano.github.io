@@ -1,2 +1,3 @@
-# lcrojano.github.io
-Hi I'm @lcrojano | Full Stack | Software engineer | Web Developer | Angular | JavaScript |
+Book:
+
+[css-in-44-minutes.pdf - Google Drive](https://drive.google.com/file/d/1PjCEzdA_ozqnzI2YGOPbicRQjQmrMJAj/view)

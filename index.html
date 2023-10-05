@@ -2,20 +2,120 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luis Carlos Rojano - Fullstack Developer</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <title>Luis C. Rojano | Software Engineer</title>
+ 
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+    ></script>
+    <noscript>
+      <style type="text/css">
+      .wallpaper {
+      animation-name: zoomOut;
+      }
+      .picture {
+      animation-name: dropIn;
+      }
+      </style>
+      </noscript>
   </head>
   <body>
-    <header>
-      <h1>Luis Carlos Rojano</h1>
-      <h2>Fullstack | Software Engineer | Web Development</h2>
-    </header>
-    <section class="content">
+    <div id="wallpaper" class="wallpaper" data-image="https://drive.google.com/uc?id=1OOHnexCc6ABZUA0IuBnbk6ugpIZ699R0"></div></div>
+    <div class="content">
+      <aside class="side">
+        <figure id="picture" class="picture">
+          <div class="picture-shadow"></div>
+          <img
+            id="pictureImage"
+            class="picture-image"
+            src="https://drive.google.com/uc?id=1NqvpnMKT0dq932LMHnzfP0o8qZRlr4eW"
+            srcset="
+              https://drive.google.com/uc?id=1NqvpnMKT0dq932LMHnzfP0o8qZRlr4eW 1x,
+              https://drive.google.com/uc?id=1DQKQrsvDgwPlBURHobivA8IAQqIEQzrp 2x,
+              https://drive.google.com/uc?id=1kh3IG7o3jP9BTs6eLveKOwCgsVJqsY2s 3x
+            "
+            alt="Portrait of Luis Rojano @lcrojano"
+            width="320"
+            height="320"
+          />
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="name">Hi, I'm Luis C. Rojano | @lcrojano</h1>
+        <p class="job">Fullstack Software Engineer</p>
+        <hr class="hr" />
+        <div class="description">
+          <p>
+            I spent my time helping startups and tech businesses to transform
+            ideas into software product that solve real problems.
+          </p>
+        </div>
+        <div class="contact">
+          <a class="button" href="mailto:lcorjano@gmail.com"> Get in touch </a>
+        </div>
+        <ul class="social">
+          <li>
+            <a href="https://github.com/lcrojano" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@lcrojano" target="_blank">
+              <i class="fab fa-medium"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/lcrojano" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/lcrojano" target="_blank">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/lcrojano" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://dev.to/lcrojano" target="_blank">
+              <i class="fa-brands fa-dev"></i>
+            </a>
+          </li>
+        
+           
 
-    </section>
-    
-    <section class="content">
+
+        </ul>
+      </main>
+    </div>
+    <section class="section-content">
+      <a href="https://github.com/lcrojano">
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact"
+          alt="Top Languages"
+        />
+      </a>
+    </section>s
+    <section class="section-content">
       <div class="glass-card">
         <h3>👨‍💻 About Me</h3>
         <p>
@@ -59,16 +159,8 @@
         </ul>
       </div>
     </section>
-
-    <section class="content">
-      <a href="https://github.com/lcrojano">
-        <img
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact"
-          alt="Top Languages"
-        />
-      </a>
-    </section>
-    <section class="content">
+    
+    <section class="section-content">
       <a href="https://app.daily.dev/lcrojano"
         ><img
           src="https://api.daily.dev/devcards/ef43738af0ba445dab63b60726286985.png?r=736"
@@ -76,5 +168,6 @@
           alt="luis carlos rojano's Dev Card"
       /></a>
     </section>
+    <script defer type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
